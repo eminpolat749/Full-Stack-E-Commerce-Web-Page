@@ -1,0 +1,40 @@
+.hero-image-with-text-button {
+  margin-bottom: 50px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.hero-image-with-text-button img {
+  width: 100%;
+  height: 800px;
+}
+.hero-image-with-text-button .hero-overlay {
+  position: absolute;
+  top: 66%!important; 
+  left: 51%!important;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  opacity: 1;
+}
+.hero-image-with-text-button .hero-overlay h2 {
+  font-size: max(4.5vw, 22px);
+  font-weight: 500;
+  color:white;
+}
+.hero-image-with-text-button .hero-overlay p {
+  font-size: 1.5vw;
+  color: white;
+}
+.hero-image-with-text-button .hero-overlay button {
+  border: none;
+  padding: 1vw 2.3vw;
+  font-weight: 600;
+  background-color: white;
+  color: black;
+  font-size: max(1.5vw, 14px);
+  cursor: pointer;
+  border-radius: 50px;
+  margin-top: 10px;
+}
+
